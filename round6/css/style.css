@@ -225,7 +225,9 @@ p{
 
 #fechar{
     position: absolute;
-    left: 20em;
+    left: 0;
+    right: 0;
+    margin: auto;
     top: 20em;
     font-size: 23pt;
     opacity: 0;
