@@ -59,9 +59,6 @@ p{
     margin-top: -10px;
 }
 
-#bt{
-              margin-left: 174px;
-}
 
 #tb{
     margin: auto;
@@ -78,7 +75,7 @@ p{
      width: 220px;
      font-size: 20pt;
      font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: -8.4em;
+     margin-left: -8.4em;
     }
 
 #msg{
@@ -254,5 +251,17 @@ p{
     padding: 1em;
 }
 
+#tdd{
+    margin-left: 174px; 
+}
 
+#pb{
+    color: grey;
+    margin-top: 5em;
+    text-align: center;
+}
+
+#bloc2{
+     height: 44.3em;
+}
 

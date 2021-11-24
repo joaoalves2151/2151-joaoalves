@@ -8,6 +8,10 @@ function aparecer(){
 
 function verificar(){
                      aceitar = document.querySelector('input:checked')
-
-                     if(aceitar != null)
+                     
+                     if(aceitar != null){
+                        window.location.href='loc.html'
+                     }else{
+                         alert('Aceite os termos para prosseguir!')
+                     }
 }
