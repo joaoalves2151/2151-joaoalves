@@ -104,11 +104,10 @@ p{
       color: #4d2600;
       width: 35rem;
       height: 18.5rem;
-      cursor: pointer;
+      cursor: no-drop;
       transform-style: preserve-3d;
-      transition: all 1.7s ease-in-out;
+      transition: all 2.1s ease-in-out;
       box-shadow: darkred 5px 5px 7px;
-    
 }
 
 .card:hover{
@@ -217,7 +216,7 @@ p{
     height: 100%;
     top: 0px;
     left: 0px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.972);
 }
 
 #fechar{
@@ -227,7 +226,6 @@ p{
     margin: auto;
     top: 17.4em;
     font-size: 23pt;
-    opacity: 0;
     transition: 4.3s;
 }
 
