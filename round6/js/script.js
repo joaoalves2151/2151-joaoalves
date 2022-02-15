@@ -15,9 +15,9 @@ $(document).ready(function(){
 
 
     //checar
-    $('#btp').click(function(checar){
+    $('#btp').click(function(verificar){
             
-                aceitar = (this).querySelector('input:checked')
+                var aceitar = (this).querySelector('input:checked')
 
                     if (aceitar != null ){  
                     $(location).href('loc.html')
