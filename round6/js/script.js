@@ -6,22 +6,16 @@ $(document).ready(function(){
 
 
     //aparecer o botão de fechar '#btf'
-    $('#dap').on(function(aparecer){
-            
-            apr = $(this).mousemove()
-
-                    if ( apr == false  ) {
-                        $('#btf').hide()
-                    }
-                    
-                        else{
-                            $('#btf').show()
-                            }
+    $('#btf').hide(); 
+    
+    $('.curto').mousemove(function(){ 
+        $('#btf').delay(1180).show(function(mostrar){
+        });
     });
 
 
     //checar
-    $('#cx').click(function(checar){
+    $('#btp').click(function(checar){
             
                 aceitar = (this).querySelector('input:checked')
 
@@ -30,7 +24,7 @@ $(document).ready(function(){
                     //ou window.location.href = 'loc.html'
                     }
 
-                        else {
+                        else{
                             alert("Você precisa aceitar os termos do contrato para prosseguir!")
                         }
     });
