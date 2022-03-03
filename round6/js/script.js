@@ -20,7 +20,7 @@ $(document).ready(function(){
                 var aceitar = (this).querySelector('input:checked')
 
                     if (aceitar != null ){  
-                    $(location).href('loc.html')
+                    $(location).show().href('loc.html')
                     //ou window.location.href = 'loc.html'
                     }
 
